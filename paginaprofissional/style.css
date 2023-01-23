@@ -1,6 +1,108 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Nunito: wght @700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,900&family=Mukta:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: black url('imagens/fotodefundo.jpg')  center center no-repeat  fixed;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75) , rgba(0,0,0,0.75)), url('imagens/fotodefundo.jpg');
+}
 
 h1 {
-    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder;
+    color: rgb(238, 238, 238);
+    font-size: 50pt;
+    margin-top: 250px;
+    margin-left: 100px;
 }
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+
+#github > a {
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 60px;
+    border-radius: 15px;
+}
+
+
+#instagram > a {
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 60px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+#linkedin > a {
+    
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 60px;
+    border-radius: 15px;
+
+   
+}
+
+main {
+    margin: auto;
+    
+}
+
+#home > a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgb(76, 76, 178);
+    padding: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
+
+}
+
+#me > a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgb(76, 76, 178);
+    padding: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+#exit > a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgb(76, 76, 178);
+    padding: 25px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+
+
+
