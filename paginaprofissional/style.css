@@ -93,8 +93,14 @@ p {
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: bolder;
     font-size: 15pt;
-
+    border-radius: 10px;
 }
+
+a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
 
 #me > a {
     text-decoration: none;
@@ -104,6 +110,7 @@ p {
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: bolder;
     font-size: 15pt;
+    border-radius: 10px;
 }
 
 #exit > a {
@@ -114,6 +121,7 @@ p {
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: bolder;
     font-size: 15pt;
+    border-radius: 10px;
 }
 
 
